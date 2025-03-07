@@ -18,7 +18,6 @@ resource "aws_subnet" "public-1" {
 
   tags = {
     Name = "deham21"
-    dept = "AWS"
   }
 
   depends_on = [ aws_vpc.dev_vpc ]
